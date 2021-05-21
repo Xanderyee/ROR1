@@ -5,7 +5,7 @@ public class Main {
 	JFrame frame = new JFrame("Risk of Rain");
 	Panel canvas = new Panel();
 
-	frame.setDefaultCloseOperation(JFrame.EXIT_ON_ClOSE);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	frame.add(canvas);
 	frame.pack();

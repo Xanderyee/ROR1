@@ -1,5 +1,11 @@
 import javax.swing.JFrame;
 
+
+// +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+// public class Main
+//
+// Main class of the project
+//
 public class Main {
     public static void main(String[] args) {
 	JFrame frame = new JFrame("Risk of Rain");
@@ -14,3 +20,4 @@ public class Main {
 	canvas.run();
     }
 }
+// end: public class Main

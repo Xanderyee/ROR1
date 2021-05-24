@@ -2,16 +2,15 @@
 
 public class Entity extends Animate {
 
-    int hp, spd;
+    int hp, dmg;
     
 
     void setHP(int hp) { this.hp = hp; }
-    void setSPD(int spd) { this.spd = spd; }
+    void setDMG(int dmg) { this.dmg = dmg; }
 
     int getHP() { return this.hp; };
-    int getSPD() { return this.spd; }
+    int getDMG() { return this.dmg; }
 
     //void changeHP(int change) { this.hp += change; }
-    //void changeSpd(int change) { this.spd += change; }
     //maybe have this for a more continuous change
 }

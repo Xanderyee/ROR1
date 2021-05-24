@@ -24,11 +24,8 @@ public class Panel extends JPanel {
 
     public Panel() {
 	    //todo: add objects from files
-        player = new Player();
-        player.x = 200;
-        player.y = 200;
-        player.w = 10;
-        player.h = 10;
+        player = new Player(200, 200, 10, 10, 100, 5);
+        //x,y,w,h,hp,spd
     }
 
     public void paintComponent(Graphics g) {
